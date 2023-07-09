@@ -28,7 +28,6 @@ getGalleryList.addEventListener("click", handleImageClick);
 
 function handleImageClick(evt) {
   if (evt.target.classList.contains("gallery__image")) {
-    console.log(evt.target.dataset.source);
     const { source } = evt.target.dataset;
     const instance = basicLightbox.create(`
     <img src="${source}" width="800" height="600">

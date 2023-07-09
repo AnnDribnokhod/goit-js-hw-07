@@ -25,5 +25,5 @@ let gallery = new SimpleLightbox(".gallery a", {
   overlayOpacity: "1",
   captionDelay: 250,
 });
-console.log(gallery);
+
 gallery.on("show.simplelightbox", function () {});
